@@ -336,7 +336,9 @@ int main() {
         std::ostringstream os;
         os << "<!DOCTYPE html><html><body>";
         os << "<h1>Message Encrypted</h1>";
-        os << "<p>Your message has been encrypted. Use the same key and number of rounds to decrypt it.</p>";
+        os << "<p>Your encrypted message is:</p>";
+        os << "<textarea rows=\"4\" cols=\"50\">" << cipherText << "</textarea>";
+        os << "<p>Use the same key and number of rounds to decrypt it.</p>";
         os << "<a href=\"/\">Go to Decryption Page</a>";
         os << "</body></html>";
         return crow::response(200, os.str());
