@@ -1,0 +1,3 @@
+/Users/casr/crowcpp/build/CMakeFiles/CrowSample.dir
+/Users/casr/crowcpp/build/CMakeFiles/edit_cache.dir
+/Users/casr/crowcpp/build/CMakeFiles/rebuild_cache.dir
