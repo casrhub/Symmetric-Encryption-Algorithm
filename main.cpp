@@ -164,7 +164,7 @@ std::string encryptMessage(const std::string& key, const std::string& plainText,
         // Apply S-Box substitution
         std::string s_result = applySBox(binaryText, s_box);
 
-        // Generate the permutation table from the round key
+
         // Generate the permutation table using random walk
         std::vector<int> permutationTable = generatePermutationByRandomWalk(roundKey, s_result.size());
 
