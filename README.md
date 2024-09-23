@@ -1,5 +1,5 @@
 
-# Crow App - README
+# Symmetric-Encryption-Algorithm Crow App - README
 
 This guide will walk you through the process of building and running a simple Crow-based web application. You'll need to install Boost and Crow as dependencies and use CMake to build the project.
 
